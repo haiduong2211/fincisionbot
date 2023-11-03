@@ -11,7 +11,7 @@ def send_welcome(message):
 
 @bot.message_handler(func=lambda msg: True)
 def echo_all(message):
-    bot.reply_to(message, message.text)
+    bot.reply_to(message, message.text + "Fincision")
 
 
 
